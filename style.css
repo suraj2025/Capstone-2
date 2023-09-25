@@ -1,0 +1,89 @@
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+          .container1{
+              background-color:rgba(0, 255, 255, 0.208);
+              height: auto;
+          }
+          .ff{
+              font-family: "Sacramento", cursive;
+              font-size: 4rem;
+          }
+          .underline{
+              text-decoration: underline;
+          }
+          .text-center,.text{
+              color: rgb(3, 146, 146);
+          }
+          .space{
+              padding-right: 200px ;
+          }
+          .space1{
+              padding-left: 200px ;
+          }
+          .profile{
+              height: auto;
+          }
+          .photo{
+              height: 150px;
+              width: 150px;
+              border-radius: 50%;
+              margin-top: 100px;
+              
+          }
+          .profile>*{
+              display: inline-flex;
+          }
+          .intro {
+      width: 30%;
+      margin: auto;
+  }
+  p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      line-height: 2;
+  }
+  hr {
+      border: dotted #b1b4b4 6px;
+      border-bottom: none;
+      width: 4%;
+      margin: 100px auto;
+  }
+  .inside{
+      display: grid;
+      grid-template-columns: 200px auto;
+      grid-template-rows: auto auto;
+      gap: 30px;
+  }
+  .skills{
+       
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: 100px;
+  }
+  .wing{
+      text-align: center;
+  }
+  .btn{
+      color: white;
+      background-color: rgb(3, 146, 146);
+      align-items: center;
+  }
+  .footer{
+      background-color: rgb(3, 146, 146);
+      height:fit-content;
+  }
+  .social>*{
+      color: rgb(6, 108, 108);
+      padding: 10px;
+      
+  }
+  .social{
+      padding-top: 20px;
+  }
